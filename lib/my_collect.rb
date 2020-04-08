@@ -4,6 +4,7 @@ def my_collect(languages)
   yield(languages[i])
   i = i + 1
   end
-else do languages.upcase
+  else do |language|
+  languages.upcase
   end
 end
