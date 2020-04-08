@@ -1,8 +1,8 @@
 def my_collect(languages)
   i = 0
-  while i < language.length
-  yield(language[i])
+  while i < languages.length
+  yield(languages[i])
   i = i + 1
-  language.upcase
+  languages.upcase
   end
 end
