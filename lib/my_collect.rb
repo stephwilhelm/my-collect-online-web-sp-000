@@ -1,4 +1,4 @@
-def my_collect(languages, students)
+def my_collect(languages)
   i = 0
   while i <language.length
   yield(language[i])
